@@ -1,0 +1,390 @@
+.homepage h1 {
+  text-align: center;
+  padding-top: 44px;
+  font-size: 35px;
+  position: relative;
+  bottom: 260px;
+  font-family: "Roboto", sans-serif;
+}
+
+.homepage h1 img {
+  width: 37px;
+  height: 37px;
+  position: relative;
+  left: 10px;
+}
+
+
+.rectangle {
+  display: flex;
+  background-color: #e9383ded;
+  border-radius: 34px;
+  left: 676px;
+  gap: 9px;
+  width: 120px;
+  position: relative;
+  height: 31px;
+  bottom: 218px;
+  padding: 7px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 33px;
+  position: relative;
+  right: 29px;
+}
+
+.logo {
+  width: 22px;
+  height: 26px;
+  margin: 2px;
+}
+
+.textForLogo {
+  font-size: 19px;
+  position: relative;
+  bottom: 17px;
+  margin-right: 19px;
+  color: white;
+}
+
+
+.square-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 8px;
+  position: relative;
+  margin-left: 1681px;
+  bottom: 203px;
+}
+
+.square-container-logo {
+  display: flex;
+  position: relative;
+  right: 81px;
+}
+
+.square-item {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+}
+
+.square-color {
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+  border: 1px solid #000;
+}
+
+.empty-rectangle {
+  background-color: #f28482;
+  border-radius: 34px;
+  left: 132px;
+  gap: 9px;
+  width: 105px;
+  position: relative;
+  height: 25px;
+  bottom: 186px;
+  padding: 7px;
+}
+
+.empty-text {
+  font-size: 17px;
+  position: relative;
+  bottom: 17px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+}
+
+/* table boxes */
+.boxes-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 47px;
+  position: relative;
+  bottom: 40px;
+  padding-right: 225px;
+  padding-left: 237px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  bottom: 130px;
+}
+
+.empty-rectangle2 {
+  bottom: 70px;
+}
+
+.boxes-container2 {
+  top: 67px;
+}
+
+
+.table-icon {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0 0 0 / 40%);
+  cursor: pointer;
+}
+
+.table-name {
+  font-family: 'Arial', sans-serif;
+  color: #8B4513;
+  /* Brown color */
+  font-size: 18px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.table-line {
+  width: 60%;
+  height: 5px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  border-radius: 10px;
+}
+
+.table-t1 .table-line {
+  background-color: black;
+}
+
+.table-t2 .table-line {
+  background-color: #31dc31;
+}
+
+.table-t3 .table-line {
+  background-color: black;
+}
+
+.table-t4 .table-line {
+  background-color: #eeee11;
+}
+
+.table-t5 .table-line {
+  background-color: #ae2012;
+}
+
+.table-t6 .table-line {
+  background-color: grey;
+}
+
+.table-t7 .table-line {
+  background-color: black;
+}
+
+.table-t8 .table-line {
+  background-color: #eeee11;
+}
+
+.table-t9 .table-line {
+  background-color: gray;
+}
+
+.table-t10 .table-line {
+  background-color: black;
+}
+
+.table-t11 .table-line {
+  background-color: #31dc31;
+}
+
+.table-t12 .table-line {
+  background-color: #ae2012;
+}
+
+
+@media (max-width: 1570px) {
+
+  .homepage h1 {
+    font-size: 30px;
+  }
+
+  .homepage h1 img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .logo-container {
+    gap: 26px;
+    right: 177px;
+    bottom: 23px;
+  }
+
+  .rectangle {
+    width: 115px;
+    height: 26px;
+  }
+
+  .logo {
+    width: 19px;
+    height: 23px;
+  }
+
+  .textForLogo {
+    font-size: 18px;
+  }
+
+  .square-container-logo {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    right: 156px;
+  }
+
+  .square-container {
+    margin-left: 0;
+  }
+
+  .empty-rectangle {
+    width: 98px;
+    height: 21px;
+  }
+
+  .table-icon {
+    padding: 8px;
+  }
+
+  .boxes-container {
+    gap: 43px;
+  }
+}
+
+/* tablet size */
+
+@media (max-width: 807px) {
+  .homepage h1 {
+    font-size: 35px;
+    left: 148px;
+    bottom: 248px;
+  }
+
+  .homepage h1 img {
+    width: 37px;
+    height: 37px;
+  }
+
+  .logo-container {
+    gap: 18px;
+    right: 384px;
+  }
+
+  .rectangle {
+    width: 116px;
+    height: 25px;
+    left: 645px;
+  }
+
+  .logo {
+    width: 19px;
+    height: 22px;
+  }
+
+  .textForLogo {
+    font-size: 18px;
+  }
+
+  .square-container-logo {
+    left: 136px;
+  }
+
+  .boxes-container {
+    gap: 30px;
+  }
+
+  .table-container {
+    gap: 16px;
+    left: 107px;
+  }
+
+  .empty-rectangle {
+    left: 119px
+  }
+
+  .table-icon {
+    padding: 3px;
+  }
+
+}
+
+@media (max-width:500px) {
+
+  .homepage h1 {
+    font-size: 27px;
+    left: 17px;
+    bottom: 224px;
+  }
+
+  .homepage h1 img {
+    width: 32px;
+    height: 30px;
+  }
+
+  .logo-container{
+    gap: 13px;
+  }
+  .square-container-logo {
+    left: -28px;
+    bottom: -13px;
+  }
+
+  .square-item {
+    font-size: 12px;
+  }
+
+  .empty-rectangle {
+    left: 16px;
+    width: 80px;
+    height: 15px;
+  }
+
+  .empty-text {
+    font-size: 16px;
+    bottom: 20px;
+  }
+
+  .table-container {
+    gap: 10px;
+    left: 31px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .table-icon {
+    padding: 0px;
+  }
+
+  .rectangle {
+    width: 88px;
+    height: 17px;
+    left: 409px;
+    bottom: 193px;
+  }
+
+  .logo {
+    width: 15px;
+    height: 18px;
+  }
+
+  .textForLogo {
+    font-size: 15px;
+  }
+}

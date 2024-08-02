@@ -1,0 +1,26 @@
+.eatofy {
+  top: -80px;
+  position: relative;
+  margin: 87px;
+  padding: 25px;
+  bottom: 178px;
+  left: 29px;
+  font-size: 30px;
+  color: #d03b30e8;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 807px)  {
+  .eatofy{
+    font-size: 33px;
+    left: 10px;
+  }
+}
+@media (max-width:500px)  {
+  .eatofy{
+    left: -52px;
+    font-size: 25px;
+  }
+}
+

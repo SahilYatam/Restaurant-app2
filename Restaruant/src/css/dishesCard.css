@@ -1,0 +1,131 @@
+ .card-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 75px;
+   width: 750px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 227px;
+   position: relative;
+   bottom: 155px;
+ }
+
+ .second-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 75px;
+   width: 505px;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 1115px;
+   top: 305px;
+ }
+
+ .card {
+   border: 2px solid #ddd;
+   border-radius: 10px;
+   padding: 20px;
+   width: 135px;
+   text-align: center;
+   transition: border-color 0.3s;
+   height: 204px;
+   cursor: pointer;
+ }
+
+ .card img {
+   width: 100px;
+   height: auto;
+   border-radius: 50%;
+ }
+
+ .card h3 {
+   margin: 15px 0 10px;
+   font-size: 14px;
+ }
+
+ .card.green {
+   border-color: #4CAF50;
+ }
+
+ .card.red {
+   border-color: #FF6347;
+ }
+
+
+ @media (max-width: 1570px) {
+   .card-container {
+     gap: 40px;
+     width: 667px;
+     margin-left: 143px;
+   }
+
+   .second-container {
+     gap: 40px;
+     width: 434px;
+     left: 907px;
+   }
+ }
+
+ @media (max-width: 807px) {
+   .card-container {
+     gap: 18px;
+     width: 512px;
+     margin-left: 114px;
+     column-gap: 0px;
+   }
+
+   .second-container {
+     gap: 16px;
+     width: 324px;
+     left: 628px;
+     top: 272px;
+   }
+
+   .card {
+     padding: 1px;
+     width: 148px;
+   }
+
+   .card img {
+     width: 76px;
+     margin-top: 15px;
+   }
+
+   .card h3 {
+     margin: 31px 0 10px;
+   }
+
+ }
+
+
+ @media (max-width:500px) {
+   .card-container {
+     gap: 18px;
+     width: 485px;
+     margin-left: 16px;
+     column-gap: 0px;
+     bottom: 290px;
+   }
+
+   .card {
+     padding: 0px;
+     width: 138px;
+   }
+
+   .card h3 {
+     font-size: 12px;
+   }
+
+   .second-container {
+     gap: 21px;
+     width: 292px;
+     left: 102px;
+     grid-template-columns: repeat(3, 1fr);
+     position: relative;
+   }
+
+   .secondClass {
+     top: -252px;
+   }
+ }

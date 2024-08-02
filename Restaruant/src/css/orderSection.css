@@ -1,0 +1,363 @@
+.order-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  z-index: 2;
+  width: 618px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.deleteIcon {
+  width: 24px;
+  height: 26px;
+  position: relative;
+  left: 4px;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.backArrow {
+  position: relative;
+  bottom: 14px;
+  margin-bottom: -33px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 33px;
+  padding-bottom: 14px;
+  bottom: 13px;
+}
+
+.qtyPrice {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 54px;
+  left: 16px;
+}
+
+.itemTag {
+  position: relative;
+  bottom: 19px;
+  left: 76px;
+}
+
+.qtyTag {
+  position: relative;
+  left: 63px;
+}
+
+.priceTag {
+  position: relative;
+  right: 133px;
+}
+
+.firstHrLine {
+  position: relative;
+  bottom: 77px;
+}
+
+.line {
+  color: gray;
+  position: relative;
+  bottom: 111px;
+}
+
+.tab {
+  background-color: #444;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 115px;
+  text-align: start;
+}
+
+.order-list {
+  margin-bottom: 10px;
+  margin-left: 34px;
+}
+
+.order-item {
+  display: grid;
+  grid-template-columns: 50px auto;
+  align-items: center;
+  gap: 5px;
+  margin-left: 60px;
+  position: relative;
+  bottom: 73px;
+}
+
+.order-item .dishesPng {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  right: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.item-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.item-price {
+  font-size: 18px;
+  margin: 0;
+  position: relative;
+  left: 313px;
+  bottom: 10px;
+}
+
+.item-price2 {
+  font-size: 15px;
+  position: relative;
+  bottom: 18px;
+  margin: 0;
+}
+
+.item-qty {
+  width: 40px;
+  background: #f44336;
+  margin-right: 151px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: #fff;
+  border-radius: 4px;
+}
+
+.order-note {
+  grid-column: span 3;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 50%;
+  height: 30px;
+  position: relative;
+  left: 50px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 65px;
+  left: 372px;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  height: 9px;
+  width: 34px;
+}
+
+.order-summary-tag {
+  margin-bottom: 20px;
+}
+
+.discount,
+.subtotal {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  position: relative;
+  bottom: 106px;
+}
+
+.button-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -30px;
+}
+
+.save-btn,
+.pay-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  height: 40px;
+  width: 112px;
+  position: relative;
+  left: 13px;
+  bottom: 115px;
+}
+
+.save-btn {
+  background-color: #555;
+  color: #fff;
+}
+
+.pay-btn {
+  background-color: #f00;
+  color: #fff;
+}
+
+
+@media (max-width: 1570px) {
+  .order-container {
+    width: 631px;
+  }
+
+  .order-item {
+    gap: 0;
+  }
+
+  .order-note {
+    height: 27px;
+  }
+
+  .item-qty {
+    width: 35px;
+    height: 35px;
+    margin-right: 136px;
+  }
+
+  .item-price {
+    font-size: 17px;
+  }
+
+  .deleteIcon {
+    width: 24px;
+    height: 27px;
+    left: 0;
+  }
+
+  .save-btn,
+  .pay-btn {
+    height: 35px;
+    width: 95px;
+    bottom: 129px;
+  }
+
+}
+
+@media (max-width:500px) {
+  .backArrow {
+    left: 166px;
+    top: -12px;
+  }
+
+  .order-title {
+    font-size: 15px;
+    padding-top: 38px;
+    left: 528px;
+    position: relative;
+    bottom: 27px;
+  }
+
+  .tabs {
+    gap: 22px;
+    margin-left: 173px;
+    bottom: 33px;
+    width: 300px;
+    justify-content: start;
+    height: 51px;
+  }
+
+  .tab {
+    text-align: center;
+  }
+
+  .qtyPrice {
+    bottom: 61px;
+    left: 16px;
+  }
+
+  .itemTag {
+    left: 190px;
+  }
+
+  .qtyTag {
+    left: 139px;
+  }
+
+  .priceTag {
+    right: 66px;
+  }
+
+  .order-item {
+    margin-left: 175px;
+    margin-bottom: -35px;
+    gap: 6px;
+    bottom: 91px;
+  }
+
+  .item-price {
+    margin-left: -31px;
+  }
+
+  .deleteIcon {
+    width: 22px;
+    height: 23px;
+    left: -35px;
+  }
+
+  .discount,
+  .subtotal {
+    justify-content: start;
+    bottom: 92px;
+    gap: 341px;
+    left: 171px;
+  }
+
+  .button-actions {
+    left: 57px;
+  }
+
+  .save-btn,
+  .pay-btn {
+    bottom: 80px;
+  }
+
+  .firstHrLine {
+    bottom: 92px;
+    left: 20px;
+  }
+
+  .line {
+    bottom: 93px;
+    left: 25px;
+  }
+
+  .item-qty {
+    margin-right: 84px;
+  }
+
+  .item-price2 {
+    font-size: 14px;
+    bottom: 14px;
+  }
+
+  .order-note {
+    width: 54%;
+  }
+
+  .item-info {
+    margin-right: -16px;
+  }
+}

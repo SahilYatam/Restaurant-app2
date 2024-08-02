@@ -1,0 +1,89 @@
+.box {
+  display: flex;
+  width: 102px;
+  height: 40px;
+  position: relative;
+  border: 1px solid black;
+  left: 1538px;
+  /* left: 900px; */
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-radius: 8px;
+  bottom: 183px;
+}
+
+.TextBox {
+  display: flex;
+  position: relative;
+  margin-left: 227px;
+  bottom: 141px;
+}
+
+.titleText {
+  position: relative;
+  top: 12px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.icon {
+  width: 17px;
+  height: 24px;
+  color: black;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  /* position: relative;
+    margin-right: 19px; */
+}
+
+
+
+@media (max-width: 1570px) {
+  .TextBox {
+    margin-left: 142px;
+  }
+
+  .box {
+    left: 1359px;
+  }
+
+}
+
+
+@media (max-width: 807px) {
+  .TextBox {
+    margin-left: 118px;
+  }
+
+  .titleText {
+    top: 0px;
+  }
+
+  .box {
+    left: 843px;
+    bottom: 308px;
+  }
+}
+
+@media (max-width:500px) {
+  .TextBox {
+    margin-left: 24px;
+  }
+
+  .titleText {
+    top: -28px;
+    font-size: 18px;
+  }
+
+  .box {
+    left: 381px;
+    bottom: 331px;
+    width: 91px;
+    height: 31px;
+  }
+}

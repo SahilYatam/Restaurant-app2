@@ -1,0 +1,199 @@
+.container {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 19px;
+  width: 77%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.confirmation-section {
+  width: 48%;
+}
+
+.payment-section {
+  width: 48%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.order-summary {
+  margin-bottom: 20px;
+}
+
+.order-item-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+.item-details span {
+  display: block;
+}
+
+.order-item-list button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.order-total {
+  padding: 10px 0;
+  border-top: 1px solid #333;
+}
+
+.order-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.save-button {
+  background: grey;
+}
+
+.pay-button {
+  background: green;
+  color: white;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.payment-method {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.payment-form {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.payment-form div {
+  margin-bottom: 10px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-form input,
+.payment-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.expiry-cvv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expiry-cvv div {
+  width: 48%;
+}
+
+.payment-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background: grey;
+}
+
+.confirm-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 101%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 1570px) {
+  .payment-form {
+    padding: 30px;
+  }
+
+  .expiry-cvv div {
+    width: 47%;
+  }
+
+}
+
+@media (max-width: 807px) {
+  .expiry-cvv div {
+    width: 45%;
+  }
+}
+
+@media (max-width:500px) {
+  .container {
+    width: 94%;
+    position: absolute;
+    right: -4px;
+    top: 0px;
+    bottom: -370px;
+  }
+
+  .order-summary {
+    position: relative;
+    right: 119px;
+    justify-content: center;
+    display: grid;
+    gap: 4px;
+  }
+  .confirmation-text{
+    position: relative;
+    right: 234px;
+    padding-top: 10px;
+  }
+
+  .order-item-list {
+    padding: 5px 0px;
+    margin: 0px -156px;
+  }
+
+  .payment-section {
+    position: absolute;
+    top: 514px;
+    width: 92%;
+  }
+}
